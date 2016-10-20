@@ -10,38 +10,21 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-size: 100%;
-}
-
-body {
-  margin: 0;
-}
-
-header {
-  background-color: #423ca3;
+  font-family: "Abhaya Libre", serif;
 }
 
 h1 {
   color: #fff;
-  font-weight: normal;
-  margin: 1em;
-}
-
-div {
-  margin: auto;
+  font-weight: bold;
 }
 
 .masthead {
   text-align: center;
-}
-
-ul {
-  margin: 0;
+  background-color: #423ca3;
 }
 
 li {
   display: inline-block;
-  margin: 0;
 }
 
 nav a {
@@ -50,14 +33,12 @@ nav a {
   color: #fff;
   background-color: #15114c;
   border-radius: .5em;
-  padding: .75em .5em;
 }
 
 a:hover {
   background-color: #fff;
   border-radius: .5em;
   color: #423ca3;
-  padding: .75em .5em;
 }
 
 *, *::before, *::after {
